@@ -1,0 +1,84 @@
+.penta-button {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: 0;
+    cursor: pointer;
+    border-radius: .5rem;
+    background-color: transparent;
+
+    //background
+    &--default{
+        color: rgb(56, 56, 56);
+        background-color: white;
+
+        &-outlined{
+            border: 1px solid white;
+        }
+    }
+    &--primary{
+        color: white;
+        background-color: var(--color-primary);
+
+        &-outlined{
+            color: var(--color-primary);
+            border: 1px solid var(--color-primary);
+        }
+    }
+
+    &--warning{
+        color: white;
+        background-color: var(--color-warning);
+
+        &-outlined{
+            color: var(--color-warning);
+            border: 1px solid var(--color-warning) !important;
+        }
+    }
+
+    &--danger{
+        color: white;
+        background-color: var(--color-danger);
+
+        &-outlined{
+            color: var(--color-danger);
+            border:1px solid var(--color-danger);
+        }
+    }
+
+    &--success{
+        color: white;
+        background-color: var(--color-success);
+
+        &-outlined{
+            color: var(--color-success);
+            border: 1px solid var(--color-success);
+        }
+    }
+
+    &--info{
+        color: white;
+        background-color: var(--color-info);
+
+        &-outlined{
+            color: var(--color-info);
+            border: 1px solid var(--color-info);
+        }
+    }
+
+    //sizes
+    &--sm{
+        padding: .5rem 1rem;
+        font-size: .875rem;
+    }
+
+    &--md{
+        padding: .625rem 1.25rem;
+        font-size: 1rem;
+    }
+
+    &--lg{
+        padding: 1rem 1.875rem;
+        font-size: 1.125rem;
+    }
+}
+
+  
